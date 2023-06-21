@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ID Card</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div style="display: grid; justify-content: center; align-items: center">
+      <h1 id="status">stoped</h1>
+      <input id="file" type="file" placeholder="Select ID Card Service File"/>
+      <button id="onStart">Start</button>
+      <button id="onStop" style="display: none">Stop</button>
+
+      <a style="margin-top: 10px;" href="https://github.com/srw-upgrade-inter/id-card-service/releases/download/v1.0.0/id-card-service.exe" target ="_blank">Download ID Card Service File</a>
+    </div>
+    <script>
+      require("./renderer.js");
+    </script>
+  </body>
+</html>

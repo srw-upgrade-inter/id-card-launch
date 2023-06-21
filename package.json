@@ -1,0 +1,42 @@
+{
+  "name": "id-card-launch",
+  "productName": "ID Card Launch",
+  "description": "ID Card Application Description",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/srw-upgrade-inter/id-card-launch.git",
+  "keywords": [],
+  "author": {
+    "name": "n-devs",
+    "email": "n.devs260340@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "pm2Status":"pm2 status",
+    "pm2Log":"pm2 log",
+    "pm2DeleteAll":"pm2 delete all"
+  },
+  "engines": {
+    "node": "18.16.0",
+    "npm": "8.19.4"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "pm2": "^5.3.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-dmg": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-wix": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "electron": "25.1.1"
+  }
+}
